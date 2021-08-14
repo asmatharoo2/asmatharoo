@@ -1,0 +1,180 @@
+<!-- 
+        Name: Amanpreet Singh Matharoo
+        Student ID: 158213199
+        Date: 14-08-2021
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Final assessment</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+<div id="pic">
+<img src="pic.jpeg"> <br>
+
+<h1>Amanpreet Singh Matharoo</h1>
+
+<h2>( Web Developer )</h2>
+<br><br>
+<button class="resume">Download Resume</button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#forsm">
+<button class="contact">Contact Me</button></a>
+<br><br><br>
+<hr class="new1">
+<br>
+</div><center>
+<h2> Education </h2></center>
+<section id="education">
+<div class="main2">
+<div class="column6">
+<br>
+<ul type="none">
+<li><h4>2021-2022(expected)</h4><li>
+<p>Computer Programming Diploma</p>
+<ul>
+</div>
+<div class="column5">
+<br>
+<ul type="none">
+<li><h3>Computer Programming Diploma</h3><li>
+<li><h4>SENECA COLLEGE</h4><li>
+
+<p>Under the supervision of best professors.</p>
+</ul>
+</div>
+</div>
+</section>
+<br><br>
+<hr class="new1">
+
+
+
+
+<br><center>
+<h2> About </h2></center>
+<div class="main">
+<section id="about-section">
+
+<div class="column1">
+<br>
+<ul type="none">
+<li><h3>About Me and Academic Honesty</h3><li>
+<p>I declare that my assessment is wholly my own work in accordance with Seneca Academic
+Policy. No part of this assessment has been copied manually or electronically from any other
+source (including web sites) except for the information supplied by the WEB222 instructors
+and / or made available in this assessment for my use. I also declare that no part of this
+assignment has been distributed to other students.</p>
+<li>Date:- 14-08-2021</li>
+<ul>
+</div>
+<div class="column2">
+<br>
+<ul type="none" >
+<li><h3>Basic Information</h3><li>
+<li>AGE:</li>
+<li>EMAIL:</li>
+<li>LANGUAGE</li>
+<li>CLASS SECTION</li>
+<li>STUDENT ID<li>
+<li>INSTRUCTOR</li>
+<ul>
+</div>
+
+<div class="column3">
+<ul type="none" >
+<br><br><br><br><br>
+
+<li>20</li>
+
+<li>asmatharoo2@myseneca.ca</li>
+<li>English,Punjabi,Hindi</li>
+<li>NFF</li>
+
+<li>158213199<li>
+<li>Nima Mahmoudi</li>
+<ul>
+</div>
+
+</section>
+</div><br><br>
+<hr class="new1">
+
+
+<form class="formm" id="forsm" action="https://httpbin.org/post" method="POST" >
+    <div class="container">
+      <p><div class="head">Contact Me</div></p>
+     <br><br> <hr>
+      <label for="name">Name
+       <input type="text" placeholder="Enter Name" name="Name" id="a" required>
+		</label>
+      
+	  <label for="email">Email Address
+	  <input type="text" placeholder="Enter Email" name="EmailAddress" id="a" required>
+	  </label>
+	  <label for="phone">Phone
+       <input type="text" placeholder="Enter Phone No(10 digits)" name="PhoneNo" id="a" pattern="[0-9]{10}" minlength="10" required>
+		</label>
+	  <label for="address"> Address
+	  <input type="text" placeholder="Enter Address" name="Address" id="a" required>
+	  </label>
+<label  for="cities">City:
+  <input placeholder="Enter/Select City" list="city" name="cities" id="a">
+  <datalist id="city">
+    <option value="Toronto"></option>
+    <option value="Surrey"></option>
+    <option value="Montreal"></option>
+    <option value="Edmonton"></option>
+    <option value="Ottawa"></option>
+  </datalist>
+</label>
+  <label for="postal">Postal Code 
+	  <input type="text" placeholder="Eg. L6X 3D5" name="postal-code" id="a" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]||[A-Za-z][0-9][A-Za-z][0-9][A-Za-z][0-9]" required>
+	  </label>
+	  What this is about:
+	   <label for="about1">
+  <input type="radio" id="Question" name="About" value="question" onclick="check()">
+ Question</label>
+ <label for="about2">
+  <input type="radio" id="Comment" name="About" value="comment" onclick="check()">
+  Comment</label>
+  <label for="about3">
+  <input type="radio" id="hiring" name="About" value="hiring" onclick="check()">
+  Hiring</label>
+  
+	<script type="text/javascript">
+
+function check() {
+if (!document.getElementById('hiring').checked){
+			document.getElementById('yes2').id='yes';
+}
+ 
+    if (document.getElementById('hiring').checked) {
+        document.getElementById('yes').style.visibility = 'visible';
+			document.getElementById('yes').id='yes2';
+
+		
+    } else {
+        document.getElementById('yes').style.visibility = 'hidden';
+		
+
+    }
+}
+</script>  
+<input type="number" placeholder="Enter Hourly rate here." name="Hourly-rate" id="yes" required>
+<br><label for="message">Message :
+<textarea name="message" placeholder="Enter your message here." id="a" rows="5"></textarea>
+    </label>  
+  <button type="submit" class="signupbtn">Send</button>
+     </div> 
+</form><center>
+<footer>&#169; Copyright,Amanpreet</footer>
+</center>
+
+</body>
+</html>

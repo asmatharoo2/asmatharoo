@@ -1,0 +1,225 @@
+* {box-sizing: border-box;}
+
+
+html {
+   width:90%;
+   max-width: 1100px;
+   margin:auto;
+  }
+  
+  
+body{
+	font-size:0.8vw;
+	font-family: 'Amatic SC', cursive;
+}
+
+
+.main{	
+display:inline-block;
+margin:0 auto 0 auto;
+background-color:#6FE7DD;
+color:white;
+text-align:center;
+padding:0.5vw;
+}
+
+li{
+font-family: 'Architects Daughter', cursive;
+}
+
+.main2{
+display:flex;
+margin:0 auto 0 auto;
+background-color:#F43B86;
+color:white;
+text-align:center;
+padding:0.5vw;
+}
+
+.column1{
+margin-left:15%;
+background-color:;
+float:left;
+width: 35%;
+height: 15vw; 
+color:white;
+text-align:left;
+font-family: 'Noto Sans TC', sans-serif;
+padding:0;
+}
+.column2 {	
+background-color:;
+float:left;
+width: 15%;
+height: 15vw; 
+color:white;
+text-align:left;
+font-family: 'Noto Sans TC', sans-serif;
+padding:0;
+}
+.column3 {
+background-color:;
+float:left;
+width: 20%;
+height: 15vw; 
+color:white;
+text-align:left;
+font-family: 'Noto Sans TC', sans-serif;
+padding:0;
+}
+.column4 {
+float:left;
+width: 17%;
+height: 15vw; 
+padding:0;
+}
+.column5 {	
+background-color:;
+float:left;
+width: 50%;
+height: 9vw; 
+color:white;
+text-align:left;
+font-family: 'Noto Sans TC', sans-serif;
+padding:0;
+}
+.column6{
+margin-left:15%;
+background-color:;
+float:left;
+width: 35%;
+height: 9vw; 
+color:white;
+text-align:left;
+font-family: 'Noto Sans TC', sans-serif;
+padding:0;
+}
+
+#pic >img{  
+display: block;
+width:15vw;
+height:20vw;
+margin-left:auto;
+margin-right:auto;
+border-radius:15%;
+}
+#pic{
+text-align:center;
+}
+
+
+#a{
+  width: 100%;
+  padding: 0.75vw;
+  margin: 0.25vw 0 1.1vw 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+#a:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 0.7vw 1vw;
+  margin: 0.4vw 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+button.contact {
+	display:inline;
+  background-color: blue;
+  color: white;
+  padding: 0.7vw 1vw;
+border-radius: 1.35vw; 
+ cursor: pointer;
+  width: 10%;
+  opacity: 2;
+}
+button.resume {
+	display:inline;
+  background-color: red;
+  color: white;
+  padding: 0.7vw 1vw;
+border-radius: 0.6vw; 
+ cursor: pointer;
+  width: 15%;
+  opacity: 2;
+}
+button:hover {
+  opacity:1;
+}
+
+.head{
+	float:left;
+	text-align:left;
+	font-size:1.1vw;
+}
+
+
+.container {
+  padding: 1.6vw;
+}
+
+
+
+.formm{
+  background-color: #fefefe;
+  margin: 5% auto 8% auto; 
+  border: 0.05vw solid #888;
+  width: 40%;
+   
+}
+
+
+hr {
+  border: 0.05vw solid #f1f1f1;
+  margin-bottom: 1.25vw;
+}
+ 
+
+
+
+
+.signupbtn {
+     width: 100%;
+  }
+
+
+.a3{
+	color:silver;
+}
+footer{
+	color:grey;
+}
+
+#yes{
+	visibility:hidden;
+	
+}
+#yes2{
+	width: 100%;
+  padding: 0.75vw;
+  margin: 0.25vw 0 1.1vw 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+form{
+	font-family: 'Satisfy', cursive;
+
+}
+hr.new1 {
+  border: 0.3vw dashed red;
+  border-radius: 0.55vw;
+  width:50%
+}
+
+
+	
